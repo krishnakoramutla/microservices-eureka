@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver  jpa:    hibernate:      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+      application:    name: VACCINATION-CENTER-SERVICE
